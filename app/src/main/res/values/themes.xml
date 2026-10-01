@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.EmojiBattery" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.EmojiBattery" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/brand_yellow</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="android:colorBackground">@color/surface_light</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
     <!-- System splash (backported by core-splashscreen). It only lives until the first
-         frame, then the Compose SplashScreen takes over with the designed UI. -->
+         frame, then SplashFragment takes over with the designed UI. -->
     <style name="Theme.EmojiBattery.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/splash_background</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>

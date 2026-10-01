@@ -13,7 +13,7 @@
         android:theme="@style/Theme.EmojiBattery">
 
         <activity
-            android:name=".presentation.MainActivity"
+            android:name=".presentation.main.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.EmojiBattery.Starting">
             <intent-filter>

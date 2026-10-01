@@ -32,7 +32,7 @@ class SplashViewModel @Inject constructor(
             val steps = (MIN_DURATION_MS / TICK_MS).toInt()
             repeat(steps) { step ->
                 delay(TICK_MS)
-                setState { copy(progress = (step + 1f) / steps) }
+                setState { copy(progress = (step + 1) * 100 / steps) }
             }
             launchInfo.await()
             // TODO: route to onboarding when launchInfo.isFirstLaunch once that screen exists.

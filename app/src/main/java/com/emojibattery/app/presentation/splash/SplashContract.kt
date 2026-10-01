@@ -5,8 +5,8 @@ import com.emojibattery.app.core.mvi.UiIntent
 import com.emojibattery.app.core.mvi.UiState
 
 data class SplashState(
-    /** Loading progress in [0f, 1f]. */
-    val progress: Float = 0f,
+    /** Loading progress in [0, 100]. */
+    val progress: Int = 0,
 ) : UiState
 
 sealed interface SplashIntent : UiIntent {

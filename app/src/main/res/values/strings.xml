@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Emoji Battery</string>
+    <string name="splash_tagline">Customize your status bar</string>
+    <string name="home_placeholder">Home screen coming next.</string>
+</resources>

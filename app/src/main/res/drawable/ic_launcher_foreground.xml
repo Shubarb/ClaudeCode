@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- battery body -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M38,34h32a6,6 0,0 1,6 6v34a6,6 0,0 1,-6 6h-32a6,6 0,0 1,-6 -6v-34a6,6 0,0 1,6 -6z" />
+    <!-- battery cap -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M46,28h16a2,2 0,0 1,2 2v4h-20v-4a2,2 0,0 1,2 -2z" />
+    <!-- emoji face -->
+    <path
+        android:fillColor="#FFFFB938"
+        android:pathData="M54,57m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+    <path
+        android:fillColor="#FF3A2A00"
+        android:pathData="M49,53m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <path
+        android:fillColor="#FF3A2A00"
+        android:pathData="M59,53m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <path
+        android:fillColor="#FF3A2A00"
+        android:pathData="M47,59h14a7,7 0,0 1,-14 0z" />
+</vector>
